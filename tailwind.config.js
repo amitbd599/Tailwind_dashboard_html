@@ -17,17 +17,7 @@ module.exports = {
     fontFamily: {
       'nunito': ['"Nunito", sans-serif'],
     },
-    // container: {
-    //     center: true,
-    //     padding: {
-    //         DEFAULT: '12px',
-    //         sm: '1rem',
-    //         lg: '45px',
-    //         xl: '5rem',
-    //         '2xl': '13rem',
-    //     },
 
-    // },
     extend: {
       screens: {
         lg_992: '992px',
@@ -36,13 +26,12 @@ module.exports = {
         'dark': '#3c4858',
         'black': '#161c2d',
         'dark-footer': '#161c28',
-        primary: colors.indigo, // This is theme primary color please change your primary color here.
+        primary: colors.indigo,
         success: colors.emerald,
         warning: colors.amber,
         danger: colors.red,
         info: colors.sky,
         light: colors.gray,
-        // muted: colors.slate,
       },
 
       boxShadow: {
@@ -69,9 +58,6 @@ module.exports = {
         '128': '32rem',
         '136': '34rem',
         '144': '36rem',
-        // '176': '44rem',
-        // '180': '45rem',
-        // '184': '46rem',
         '84%': '84%',
 
       },
@@ -136,7 +122,6 @@ module.exports = {
         ModalSlide: {
           '0%': { transform: 'translateY(-50px)' },
           '100%': { transform: 'translateY(0)' },
-          // '100%': { transform: 'translateY(0)' }
         }
       },
       animation: {
