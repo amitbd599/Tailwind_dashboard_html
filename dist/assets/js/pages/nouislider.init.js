@@ -1,5 +1,5 @@
 /**
- * Theme: T-Wind - Tailwind Admin Dashboard Template
+ * Theme: Do-Tech - Tailwind Admin Dashboard Template
  * Author: Mannatthemes
  * File: nouislider Js
  */
@@ -14,10 +14,10 @@ noUiSlider.create(slider, {
     range: {
         min: [0],
         max: [10]
-    },   
+    },
 });
 
-slider.noUiSlider.on('hover', function( value ){
+slider.noUiSlider.on('hover', function (value) {
     console.log(value);
 });
 
@@ -92,19 +92,19 @@ function timestamp(str) {
 }
 
 noUiSlider.create(dateSlider, {
-// Create two timestamps to define a range.
+    // Create two timestamps to define a range.
     range: {
         min: timestamp('2010'),
         max: timestamp('2016')
     },
 
-// Steps of one week
+    // Steps of one week
     step: 7 * 24 * 60 * 60 * 1000,
 
-// Two more timestamps indicate the handle starting positions.
+    // Two more timestamps indicate the handle starting positions.
     start: [timestamp('2011'), timestamp('2015')],
 
-// No decimals
+    // No decimals
     format: wNumb({
         decimals: 0
     })
@@ -163,7 +163,7 @@ noUiSlider.create(pipsSlider, {
         max: 100
     },
     start: [50],
-    pips: {mode: 'count', values: 5}
+    pips: { mode: 'count', values: 5 }
 });
 
 var pips = pipsSlider.querySelectorAll('.noUi-value');

@@ -1,5 +1,5 @@
 /**
- * Theme: T-Wind - Tailwind Admin Dashboard Template
+ * Theme: Do-Tech - Tailwind Admin Dashboard Template
  * Author: Mannatthemes
  * File: Editor Js
  */
@@ -16,7 +16,7 @@ tinymce.init({
         'bullist numlist outdent indent | link image | print preview media fullpage | ' +
         'forecolor backcolor emoticons | help',
     menu: {
-        favs: {title: 'My Favorites', items: 'code visualaid | searchreplace | emoticons'}
+        favs: { title: 'My Favorites', items: 'code visualaid | searchreplace | emoticons' }
     },
     menubar: 'favs file edit view insert format tools table help',
     content_style: 'body { font-family:Helvetica,Arial,sans-serif; font-size:14px }'

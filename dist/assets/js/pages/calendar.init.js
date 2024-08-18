@@ -1,11 +1,11 @@
 /**
-* Theme: T-Wind - Tailwind Admin Dashboard Template
+* Theme: Do-Tech - Tailwind Admin Dashboard Template
 * Author: Mannatthemes
 * Component: Full-Calendar
 */
 
 
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function () {
   var calendarEl = document.getElementById('calendar');
 
   var calendar = new FullCalendar.Calendar(calendarEl, {
@@ -41,7 +41,7 @@ document.addEventListener('DOMContentLoaded', function() {
         end: '2022-02-29',
         className: 'bg-blue-100 text-blue-500',
       },
-      
+
       // areas where "Meeting" must be dropped
       {
         groupId: 'availableForMeeting',
@@ -67,7 +67,7 @@ document.addEventListener('DOMContentLoaded', function() {
       },
 
       // red areas where no events can be dropped
-      
+
       {
         start: '2022-06-06',
         end: '2022-06-08',

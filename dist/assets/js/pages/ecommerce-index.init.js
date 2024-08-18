@@ -1,5 +1,5 @@
 /**
- * Theme: T-Wind - Tailwind Admin Dashboard Template
+ * Theme: Do-Tech - Tailwind Admin Dashboard Template
  * Author: Mannatthemes
  * Ecommerce Dashboard Js
  */

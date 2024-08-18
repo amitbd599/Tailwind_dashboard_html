@@ -1,5 +1,5 @@
 /**
- * Theme: T-Wind - Tailwind Admin Dashboard Template
+ * Theme: Do-Tech - Tailwind Admin Dashboard Template
  * Author: Mannatthemes
  * File: Wizard Js
  */
@@ -25,14 +25,14 @@ const step4Tab = document.getElementById('step4-tab');
 const step4 = document.getElementById('step4');
 
 
-step1Next.addEventListener('click',function(){
+step1Next.addEventListener('click', function () {
     step1Tab.classList.remove('active');
     step1.classList.remove('active');
     step2Tab.classList.add('active');
     step2.classList.add('active');
 });
 
-step2Prev.addEventListener('click',function(){
+step2Prev.addEventListener('click', function () {
     step1Tab.classList.add('active');
     step1.classList.add('active');
     step2Tab.classList.remove('active');
@@ -40,7 +40,7 @@ step2Prev.addEventListener('click',function(){
 });
 
 
-step3Prev.addEventListener('click',function(){
+step3Prev.addEventListener('click', function () {
     step2Tab.classList.add('active');
     step2.classList.add('active');
     step3Tab.classList.remove('active');
@@ -48,7 +48,7 @@ step3Prev.addEventListener('click',function(){
 });
 
 
-step4Prev.addEventListener('click',function(){
+step4Prev.addEventListener('click', function () {
     step3Tab.classList.add('active');
     step3.classList.add('active');
     step4Tab.classList.remove('active');
@@ -56,7 +56,7 @@ step4Prev.addEventListener('click',function(){
 });
 
 
-step2Next.addEventListener('click',function(){
+step2Next.addEventListener('click', function () {
     step3Tab.classList.add('active');
     step3.classList.add('active');
     step2Tab.classList.remove('active');
@@ -64,7 +64,7 @@ step2Next.addEventListener('click',function(){
 });
 
 
-step3Next.addEventListener('click',function(){
+step3Next.addEventListener('click', function () {
     step4Tab.classList.add('active');
     step4.classList.add('active');
     step3Tab.classList.remove('active');
